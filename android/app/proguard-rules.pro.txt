@@ -1,0 +1,4 @@
+# Vuzix speech recognition requires the SDK names not be obfuscated
+-keep class com.vuzix.sdk.speechrecognitionservice.** {
+    *;
+}
